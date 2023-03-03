@@ -6,13 +6,13 @@ class Televisor {
         this.isOn = isOn;
     }
 
-    public boolean turnOn() {
-        return isOn = true;
+    public void turnOn() {
+        isOn = true;
 
     }
 
-    public boolean turnOff() {
-        return isOn = false;
+    public void turnOff() {
+        isOn = false;
 
     }
 
