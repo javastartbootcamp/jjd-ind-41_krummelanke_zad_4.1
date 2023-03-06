@@ -8,12 +8,10 @@ class Televisor {
 
     public void turnOn() {
         isOn = true;
-
     }
 
     public void turnOff() {
         isOn = false;
-
     }
 
     public void showStatus() {
@@ -23,5 +21,4 @@ class Televisor {
             System.out.println("Telewizor jest wyłączony");
         }
     }
-
 }
